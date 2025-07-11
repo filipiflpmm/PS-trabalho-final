@@ -1,8 +1,10 @@
-📌 Sistema de Validação de Atividades Complementares
+# 📌 Sistema de Validação de Atividades Complementares #
 
 Este projeto em Java orientado a objetos tem como objetivo validar as atividades complementares de um aluno com base em regras institucionais, distribuídas em modalidades específicas. A aplicação é baseada em princípios de design sólido e utiliza padrões de projeto como Strategy, Decorator e Specification.
 
-🚀 Apresentação do Objetivo do Projeto
+---
+
+# 🚀 Apresentação do Objetivo do Projeto
 
 No contexto acadêmico, os alunos devem cumprir 80 horas de atividades complementares, distribuídas entre 4 modalidades:
 
@@ -16,13 +18,17 @@ Complementação (máximo 20%)
 
 Cada modalidade contém uma lista de atividades pré-definidas, com um limite máximo de horas. O sistema permite ao aluno informar as horas realizadas em cada atividade. No final, o sistema gera um parecer detalhado, validando as horas conforme os critérios e informando se o aluno cumpriu a carga horária exigida.
 
-📊 Diagrama de Classes
+---
+
+# 📊 Diagrama de Classes
 
 // a implementar
 
-📌 Padrões de Projeto Utilizados
+---
 
-✔️ 1. Strategy – para refatorar o cálculo das horas válidas por modalidade
+# 📌 Padrões de Projeto Utilizados
+
+## ✔️ 1. Strategy – para refatorar o cálculo das horas válidas por modalidade
 Usei o padrão Strategy para que cada modalidade tenha sua própria estratégia de cálculo com base na porcentagem exigida.
 
 40% das 80h (ou seja, até 32h) podem vir da modalidade 1 - Ensino
@@ -35,7 +41,7 @@ Usei o padrão Strategy para que cada modalidade tenha sua própria estratégia 
 
 Criei uma interface ValidadorHoras e uma classe para cada modalidade com sua própria estratégia de cálculo.
 
-✔️ 2. Decorator – para personalizar o parecer final
+## ✔️ 2. Decorator – para personalizar o parecer final
 Usei o padrão Decorator para adicionar funcionalidades opcionais ao parecer, como:
 
 Assinatura do coordenador
@@ -45,7 +51,7 @@ Exportar o parecer em .pdf
 Criei uma interface ParecerComponente e uma classe base ParecerBasico, 
 e depois criei decoradores como ParecerComAssinatura e ParecerEmPdf.
 
-✔️ 3. Specification – para validar regras de negócio
+## ✔️ 3. Specification – para validar regras de negócio
 Criei regras de validação reutilizáveis && combináveis. Por exemplo:
 
 Se o aluno atingiu as 80h válidas
@@ -56,23 +62,26 @@ Criei uma interface Specification e duas classes com regras, uma que verifica se
 as 80h válidas e o outra que verifica se nenhuma atividade está vazia. Depois criei uma 
 regraE (regrasCombinadas) na classe SpecificationE que verifica se ambas são verdadeiras.
 
-⚙️ Instruções de Uso
+---
+
+# ⚙️ Instruções de Uso
 
 Clone o repositório:
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
-
-Compile e execute o projeto:
+**git clone https://github.com/seu-usuario/nome-do-repositorio.git**
+**cd nome-do-repositorio**
+Compile e execute o projeto
 
 Caso use o terminal:
 
-javac -d bin src/ifsc/projetoatividadecomplementar/*.java
-java -cp bin ifsc.projetoatividadecomplementar.Main
+**javac -d bin src/ifsc/projetoatividadecomplementar/*.java**
+**java -cp bin ifsc.projetoatividadecomplementar.Main**
 
 Ou abra diretamente no NetBeans ou Eclipse.
 
-Passo a passo:
+---
+
+# 📋 Passo a passo:
 
 Digite a matrícula do aluno.
 
@@ -86,10 +95,10 @@ Repita para outras modalidades e atividades.
 
 Ao finalizar, escolha 0 no menu principal para gerar o parecer.
 
-📋 Exemplo de Parecer Gerado
+## Exemplo de Parecer Gerado
 
 === PARECER DE VALIDAÇÃO ===
-Matrícula: 100000000001
+Matrícula: 100000000001 
 Data emissão: 2025-07-11
 
 Modalidade 1 - Ensino:
@@ -107,5 +116,5 @@ Total de horas validadas: 80h
 
 O aluno cumpriu a carga horária exigida de 80 horas.
 
-📌 Desenvolvido por Felipe Martins de Medeiros — para fins educacionais no curso de Análise e Desenvolvimento de Sistemas - IFSC campus Tubarão.
+# 📌 Desenvolvido por Felipe Martins de Medeiros — para fins educacionais no curso de Análise e Desenvolvimento de Sistemas - IFSC campus Tubarão.
 
