@@ -69,12 +69,14 @@ regraE (regrasCombinadas) na classe SpecificationE que verifica se ambas são ve
 Clone o repositório:
 
 **git clone https://github.com/seu-usuario/nome-do-repositorio.git**
+
 **cd nome-do-repositorio**
 Compile e execute o projeto
 
 Caso use o terminal:
 
 **javac -d bin src/ifsc/projetoatividadecomplementar/*.java**
+
 **java -cp bin ifsc.projetoatividadecomplementar.Main**
 
 Ou abra diretamente no NetBeans ou Eclipse.
@@ -116,5 +118,5 @@ Total de horas validadas: 80h
 
 O aluno cumpriu a carga horária exigida de 80 horas.
 
-# 📌 Desenvolvido por Felipe Martins de Medeiros — para fins educacionais no curso de Análise e Desenvolvimento de Sistemas - IFSC campus Tubarão.
+### 📌 Desenvolvido por Felipe Martins de Medeiros — para fins educacionais no curso de Análise e Desenvolvimento de Sistemas - IFSC campus Tubarão.
 
