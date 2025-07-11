@@ -97,26 +97,5 @@ Repita para outras modalidades e atividades.
 
 Ao finalizar, escolha 0 no menu principal para gerar o parecer.
 
-## Exemplo de Parecer Gerado
-
-=== PARECER DE VALIDAÇÃO ===
-Matrícula: 100000000001 
-Data emissão: 2025-07-11
-
-Modalidade 1 - Ensino:
-Atividade: Monitoria
-Horas declaradas: 15h
-Limite Máximo: 10h
-Horas validadas: 10h
-Observação: horas declaradas (15h) excedem o limite (10h). Horas ajustadas.
-
-...
-
-Resumo geral:
-Total de horas declaradas: 85h
-Total de horas validadas: 80h
-
-O aluno cumpriu a carga horária exigida de 80 horas.
-
 ### 📌 Desenvolvido por Felipe Martins de Medeiros — para fins educacionais no curso de Análise e Desenvolvimento de Sistemas - IFSC campus Tubarão.
 
