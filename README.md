@@ -45,7 +45,7 @@ Utilizado o padrão Strategy para que cada modalidade tenha sua própria estrat�
 
 40% das 80h (até 32h) da modalidade 3 - Extensão;
 
-20% das 80h (até 16h) da modalidade 4 - Complementação;
+20% das 80h (até 16h) da modalidade 4 completando 100% das horas - Complementação;
 
 Criada uma interface ValidadorHoras e uma classe para cada modalidade com sua própria estratégia de cálculo.
 
