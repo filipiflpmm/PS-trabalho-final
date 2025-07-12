@@ -30,6 +30,8 @@ Cada modalidade contém uma lista de atividades pré-definidas, com um limite m�
 
 <img width="1099" height="621" alt="DC4" src="https://github.com/user-attachments/assets/2b1b8aa9-6793-4b92-bb8a-01d33a33f521" />
 
+<img width="2392" height="1434" alt="DC5" src="https://github.com/user-attachments/assets/cb77474d-d530-469c-98e5-bd93054bba73" />
+
 ---
 
 # 📌 Padrões de Projeto Utilizados
