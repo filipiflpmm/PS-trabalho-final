@@ -22,7 +22,8 @@ Cada modalidade contém uma lista de atividades pré-definidas, com um limite m�
 
 # 📊 Diagrama de Classe
 
-// a implementar
+<img width="1216" height="812" alt="DC1" src="https://github.com/user-attachments/assets/4aa48523-4ce7-403b-bd47-94985cc77030" />
+
 
 ---
 
