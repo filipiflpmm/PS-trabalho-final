@@ -69,17 +69,11 @@ regraE (regrasCombinadas) na classe SpecificationE que verifica se ambas são ve
 Clone o repositório:
 
 **git clone https://github.com/seu-usuario/nome-do-repositorio.git**
-
 **cd nome-do-repositorio**
-Compile e execute o projeto
+Compilar e executar o projeto
+Ou fazer o download do projeto em zip, extrair e abrir diretamente no NetBeans ou Eclipse.
 
-Caso use o terminal:
-
-**javac -d bin src/ifsc/projetoatividadecomplementar/*.java**
-
-**java -cp bin ifsc.projetoatividadecomplementar.Main**
-
-Ou abra diretamente no NetBeans ou Eclipse.
+**Obs: caso houver problema de versão, clicar com o botão direito no projeto, ir em "Resolve Project Problems...", clicar em "Resolve", selecionar "Downgrade Project Source/ Binary Format to 22" e clicar em "OK" e "Close".**
 
 ---
 
