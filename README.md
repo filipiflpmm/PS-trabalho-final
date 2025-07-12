@@ -64,15 +64,12 @@ regraE (regrasCombinadas) na classe SpecificationE que verifica se ambas são ve
 
 ---
 
-# ⚙️ Instruções de Uso
+# ⚙️ Como usar:
 
-Clone o repositório:
-
-**git clone https://github.com/seu-usuario/nome-do-repositorio.git**
-
-**cd nome-do-repositorio**
-Compilar e executar o projeto
-
+Abra o terminal no diretório onde está instalado o arquivo .jar e execute o projeto com o comando:
+```sh
+java -jar ProjetoAtividadeComplementar.jar
+```
 Ou fazer o download do projeto em zip, extrair e abrir diretamente no NetBeans ou Eclipse.
 
 **Obs: caso houver problema de versão, clicar com o botão direito no projeto, ir em "Resolve Project Problems...", clicar em "Resolve", selecionar "Downgrade Project Source/ Binary Format to 22" e clicar em "OK" e "Close".**
