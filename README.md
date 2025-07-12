@@ -24,6 +24,8 @@ Cada modalidade contém uma lista de atividades pré-definidas, com um limite m�
 
 <img width="1216" height="812" alt="DC1" src="https://github.com/user-attachments/assets/4aa48523-4ce7-403b-bd47-94985cc77030" />
 
+<img width="1172" height="574" alt="DC2" src="https://github.com/user-attachments/assets/6d708e48-24ec-4af9-8ab0-3a4f5fd794b7" />
+
 
 ---
 
