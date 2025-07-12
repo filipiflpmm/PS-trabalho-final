@@ -28,6 +28,8 @@ Cada modalidade contém uma lista de atividades pré-definidas, com um limite m�
 
 <img width="1084" height="582" alt="DC3" src="https://github.com/user-attachments/assets/85e05b4d-ef63-4304-8298-a64344bfb3e9" />
 
+<img width="1099" height="621" alt="DC4" src="https://github.com/user-attachments/assets/2b1b8aa9-6793-4b92-bb8a-01d33a33f521" />
+
 ---
 
 # 📌 Padrões de Projeto Utilizados
@@ -45,16 +47,7 @@ Usei o padrão Strategy para que cada modalidade tenha sua própria estratégia 
 
 Criei uma interface ValidadorHoras e uma classe para cada modalidade com sua própria estratégia de cálculo.
 
-## ✔️ 2. Decorator – para personalizar o parecer final
-Usei o padrão Decorator para adicionar funcionalidades opcionais ao parecer, como:
-
-Assinatura do coordenador;
-
-Exportar o parecer em .pdf;
-
-Criei uma interface ParecerComponente e uma classe base ParecerBasico, e depois criei decoradores como ParecerComAssinatura e ParecerEmPdf.
-
-## ✔️ 3. Specification – para validar regras de negócio
+## ✔️ 2. Specification – para validar regras de negócio
 Criei regras de validação reutilizáveis && combináveis. Por exemplo:
 
 Se o aluno atingiu as 80h válidas;
@@ -63,6 +56,15 @@ Se há pelo menos uma atividade por modalidade;
 
 Criei uma interface Specification e duas classes com regras, uma que verifica se o aluno tem as 80h válidas e o outra que verifica se nenhuma atividade está vazia. Depois criei uma 
 regraE (regrasCombinadas) na classe SpecificationE que verifica se ambas são verdadeiras.
+
+## ✔️ 3. Decorator – para personalizar o parecer final
+Usei o padrão Decorator para adicionar funcionalidades opcionais ao parecer, como:
+
+Assinatura do coordenador;
+
+Exportar o parecer em .pdf;
+
+Criei uma interface ParecerComponente e uma classe base ParecerBasico, e depois criei decoradores como ParecerComAssinatura e ParecerEmPdf.
 
 ---
 
