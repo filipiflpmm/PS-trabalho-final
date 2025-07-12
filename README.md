@@ -72,6 +72,7 @@ Clone o repositório:
 
 **cd nome-do-repositorio**
 Compilar e executar o projeto
+
 Ou fazer o download do projeto em zip, extrair e abrir diretamente no NetBeans ou Eclipse.
 
 **Obs: caso houver problema de versão, clicar com o botão direito no projeto, ir em "Resolve Project Problems...", clicar em "Resolve", selecionar "Downgrade Project Source/ Binary Format to 22" e clicar em "OK" e "Close".**
