@@ -1,6 +1,6 @@
 # 📌 Sistema de Validação de Atividades Complementares #
 
-Este projeto em Java orientado a objetos tem como objetivo validar as atividades complementares de um aluno com base em regras institucionais, distribuídas em modalidades específicas. A aplicação é baseada em princípios de design SOLID e utiliza padrões de projeto como Strategy, Decorator e Specification.
+Este projeto em Java orientado a objetos tem como objetivo validar as atividades complementares de um aluno com base em regras institucionais, distribuídas em modalidades específicas. A aplicação é baseada em princípios de design e utiliza padrões de projeto como Strategy, Specification e Decorator.
 
 ---
 
