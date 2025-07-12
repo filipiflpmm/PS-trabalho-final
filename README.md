@@ -69,6 +69,7 @@ regraE (regrasCombinadas) na classe SpecificationE que verifica se ambas são ve
 Clone o repositório:
 
 **git clone https://github.com/seu-usuario/nome-do-repositorio.git**
+
 **cd nome-do-repositorio**
 Compilar e executar o projeto
 Ou fazer o download do projeto em zip, extrair e abrir diretamente no NetBeans ou Eclipse.
