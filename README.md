@@ -61,11 +61,11 @@ Criada uma interface Specification e duas classes com regras, uma que verifica s
 ## ✔️ 3. Decorator – para personalizar o parecer final
 Utilizado o padrão Decorator para adicionar funcionalidades opcionais ao parecer, como:
 
-Assinatura do coordenador;
+Assinatura do coordenador (apenas camada textual);
 
-Exportar o parecer em .pdf;
+Exportar o parecer em .pdf (apenas camada textual);
 
-Criada uma interface ParecerComponente e uma classe base ParecerBasico. Seguindo o padrão, fora criada uma classe abstrata ParecerDecorador para acrescentar novas camadas como as classes ParecerComAssinatura e ParecerEmPdf.
+Criada uma interface ParecerComponente e uma classe base ParecerBasico. Seguindo o padrão, foi criada também uma classe abstrata ParecerDecorador para acrescentar novas camadas como as classes ParecerComAssinatura e ParecerEmPdf.
 
 ---
 
