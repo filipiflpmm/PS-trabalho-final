@@ -1,6 +1,6 @@
 # 📌 Sistema de Validação de Atividades Complementares #
 
-Este projeto em Java orientado a objetos tem como objetivo validar as atividades complementares de um aluno com base em regras institucionais, distribuídas em modalidades específicas. A aplicação é baseada em princípios de design sólido e utiliza padrões de projeto como Strategy, Decorator e Specification.
+Este projeto em Java orientado a objetos tem como objetivo validar as atividades complementares de um aluno com base em regras institucionais, distribuídas em modalidades específicas. A aplicação é baseada em princípios de design solid e utiliza padrões de projeto como Strategy, Decorator e Specification.
 
 ---
 
@@ -10,7 +10,7 @@ No contexto acadêmico, os alunos devem cumprir 80 horas de atividades complemen
 
 Ensino (máximo 40%);
 
-Pesquisa e Inovação (máximo 40%);
+Pesquisa (máximo 40%);
 
 Extensão (máximo 40%);
 
@@ -37,7 +37,7 @@ Cada modalidade contém uma lista de atividades pré-definidas, com um limite m�
 # 📌 Padrões de Projeto Utilizados
 
 ## ✔️ 1. Strategy – para refatorar o cálculo das horas válidas por modalidade
-Usei o padrão Strategy para que cada modalidade tenha sua própria estratégia de cálculo com base na porcentagem exigida.
+Utilizado o padrão Strategy para que cada modalidade tenha sua própria estratégia de cálculo com base na porcentagem exigida.
 
 40% das 80h (ou seja, até 32h) podem vir da modalidade 1 - Ensino;
 
@@ -47,26 +47,25 @@ Usei o padrão Strategy para que cada modalidade tenha sua própria estratégia 
 
 20% das 80h (até 16h) da modalidade 4 - Complementação;
 
-Criei uma interface ValidadorHoras e uma classe para cada modalidade com sua própria estratégia de cálculo.
+Criada uma interface ValidadorHoras e uma classe para cada modalidade com sua própria estratégia de cálculo.
 
 ## ✔️ 2. Specification – para validar regras de negócio
-Criei regras de validação reutilizáveis && combináveis. Por exemplo:
+Utilizado para regras de validação reutilizáveis e (&&) combináveis. Por exemplo:
 
-Se o aluno atingiu as 80h válidas;
+Se há pelo menos uma atividade em 3 modalidades diferentes;
 
-Se há pelo menos uma atividade por modalidade;
+Se o aluno atingiu as 80 horas válidas;
 
-Criei uma interface Specification e duas classes com regras, uma que verifica se o aluno tem as 80h válidas e o outra que verifica se nenhuma atividade está vazia. Depois criei uma 
-regraE (regrasCombinadas) na classe SpecificationE que verifica se ambas são verdadeiras.
+Criada uma interface Specification e duas classes com regras, uma que verifica se há atividade em pelo menos 3 modalidades e a outra que verifica se o aluno tem as 80 horas válidas. Depois é utilizado uma regraE (regrasCombinadas) na classe SpecificationE que verifica se ambas são verdadeiras.
 
 ## ✔️ 3. Decorator – para personalizar o parecer final
-Usei o padrão Decorator para adicionar funcionalidades opcionais ao parecer, como:
+Utilizado o padrão Decorator para adicionar funcionalidades opcionais ao parecer, como:
 
 Assinatura do coordenador;
 
 Exportar o parecer em .pdf;
 
-Criei uma interface ParecerComponente e uma classe base ParecerBasico, e depois criei decoradores como ParecerComAssinatura e ParecerEmPdf.
+Criada uma interface ParecerComponente e uma classe base ParecerBasico. Seguindo o padrão, fora criada uma classe abstrata ParecerDecorador para acrescentar novas camadas como as classes ParecerComAssinatura e ParecerEmPdf.
 
 ---
 
@@ -80,7 +79,9 @@ java -jar PS.jar
 ```
 Ou abrir o projeto diretamente no NetBeans, IntelliJ ou Eclipse.
 
-**Obs: caso houver problema de versão no NetBeans, clicar com o botão direito no projeto, ir em "Resolve Project Problems...", clicar em "Resolve", selecionar "Downgrade Project Source/ Binary Format to 22" e clicar em "OK" e "Close".**
+**Obs: a versão executada via CMD não possui acentos, somente o projeto executado pelo NetBeans ficou encodado com todas acentuações.**
+
+**Obs2: caso houver problema de versão no NetBeans, clicar com o botão direito no projeto, ir em "Resolve Project Problems...", clicar em "Resolve", selecionar "Downgrade Project Source/ Binary Format to 22" e clicar em "OK" e depois em "Close".**
 
 ---
 
@@ -92,9 +93,9 @@ Escolha uma modalidade pelo número.
 
 No submenu da modalidade, selecione uma das atividades listadas.
 
-Informe apenas as horas declaradas.
+Informe as horas declaradas.
 
-Repita para outras modalidades e atividades.
+Repita para outras modalidades e atividades, caso houver.
 
 Ao finalizar, escolha 0 no menu principal para gerar o parecer.
 
