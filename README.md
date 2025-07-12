@@ -67,6 +67,7 @@ regraE (regrasCombinadas) na classe SpecificationE que verifica se ambas são ve
 # ⚙️ Como usar:
 
 Fazer o download do projeto em zip e extrair.
+
 Abrir o terminal no diretório onde está instalado o arquivo PS.jar em ProjetoAtividadeComplementar\target e executar no CMD o comando:
 ```sh
 java -jar PS.jar
