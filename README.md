@@ -99,5 +99,7 @@ Repita para outras modalidades e atividades, caso houver.
 
 Ao finalizar, escolha 0 no menu principal para gerar o parecer.
 
+---
+
 📌 Desenvolvido por **Felipe Martins de Medeiros** — para fins educacionais no curso de Análise e Desenvolvimento de Sistemas - IFSC campus Tubarão.
 
