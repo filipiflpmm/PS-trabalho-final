@@ -72,7 +72,7 @@ Abrir o terminal no diretório onde está instalado o arquivo PS.jar em ProjetoA
 ```sh
 java -jar PS.jar
 ```
-Ou abrir o projeto diretamente no NetBeans ou Eclipse.
+Ou abrir o projeto diretamente no NetBeans, IntelliJ ou Eclipse.
 
 **Obs: caso houver problema de versão no NetBeans, clicar com o botão direito no projeto, ir em "Resolve Project Problems...", clicar em "Resolve", selecionar "Downgrade Project Source/ Binary Format to 22" e clicar em "OK" e "Close".**
 
