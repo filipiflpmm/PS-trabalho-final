@@ -66,13 +66,13 @@ regraE (regrasCombinadas) na classe SpecificationE que verifica se ambas são ve
 
 # ⚙️ Como usar:
 
-Abra o terminal no diretório onde está instalado o arquivo .jar e execute o projeto com o comando:
+Abra o terminal no diretório onde está instalado o arquivo PS.jar em ProjetoAtividadeComplementar\target e execute no CMD o comando:
 ```sh
-java -jar ProjetoAtividadeComplementar.jar
+java -jar PS.jar
 ```
 Ou fazer o download do projeto em zip, extrair e abrir diretamente no NetBeans ou Eclipse.
 
-**Obs: caso houver problema de versão, clicar com o botão direito no projeto, ir em "Resolve Project Problems...", clicar em "Resolve", selecionar "Downgrade Project Source/ Binary Format to 22" e clicar em "OK" e "Close".**
+**Obs: caso houver problema de versão no NetBeans, clicar com o botão direito no projeto, ir em "Resolve Project Problems...", clicar em "Resolve", selecionar "Downgrade Project Source/ Binary Format to 22" e clicar em "OK" e "Close".**
 
 ---
 
