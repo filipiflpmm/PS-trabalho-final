@@ -34,7 +34,7 @@ Cada modalidade contém uma lista de atividades pré-definidas, com um limite m�
 
 ---
 
-# 📌 Padrões de Projeto Utilizados
+# 📂 Padrões de Projeto Utilizados
 
 ## ✔️ 1. Strategy – para refatorar o cálculo das horas válidas por modalidade
 Utilizado o padrão Strategy para que cada modalidade tenha sua própria estratégia de cálculo com base na porcentagem exigida.
@@ -101,4 +101,4 @@ Ao finalizar, escolha 0 no menu principal para gerar o parecer.
 
 ---
 
-📌 **Felipe Martins de Medeiros**
+📧 **Felipe Martins de Medeiros**
