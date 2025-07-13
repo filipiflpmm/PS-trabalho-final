@@ -101,4 +101,4 @@ Ao finalizar, escolha 0 no menu principal para gerar o parecer.
 
 ---
 
-📌 Projeto elaborado por **Felipe Martins de Medeiros**
+📌 **Felipe Martins de Medeiros**
