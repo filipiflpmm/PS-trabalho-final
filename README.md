@@ -36,7 +36,7 @@ Cada modalidade contém uma lista de atividades pré-definidas, com um limite m�
 
 # 📂 Padrões de Projeto Utilizados
 
-## ✔️ 1. Strategy – para refatorar o cálculo das horas válidas por modalidade
+## ✔️ 1. Strategy – no cálculo das horas exigidas por modalidade
 Utilizado o padrão Strategy para que cada modalidade tenha sua própria estratégia de cálculo com base na porcentagem exigida.
 
 40% das 80h (ou seja, até 32h) podem vir da modalidade 1 - Ensino;
@@ -49,7 +49,7 @@ Utilizado o padrão Strategy para que cada modalidade tenha sua própria estrat�
 
 Criada uma interface ValidadorHoras e uma classe para cada modalidade com sua própria estratégia de cálculo.
 
-## ✔️ 2. Specification – para validar regras de negócio
+## ✔️ 2. Specification – na validação do cumprimento das regras
 Utilizado para regras de validação reutilizáveis e (&&) combináveis. Por exemplo:
 
 Se há pelo menos uma atividade em 3 modalidades diferentes;
@@ -58,7 +58,7 @@ Se o aluno atingiu as 80 horas válidas;
 
 Criada uma interface Specification e duas classes com regras, uma que verifica se há atividade em pelo menos 3 modalidades e a outra que verifica se o aluno tem as 80 horas válidas. Depois é utilizado uma regraE (regrasCombinadas) na classe SpecificationE que verifica se ambas são verdadeiras.
 
-## ✔️ 3. Decorator – para personalizar o parecer final
+## ✔️ 3. Decorator – para acrescentar o parecer final
 Utilizado o padrão Decorator para adicionar funcionalidades opcionais ao parecer, como:
 
 Assinatura do coordenador (apenas camada textual);
